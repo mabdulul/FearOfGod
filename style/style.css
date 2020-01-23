@@ -16,8 +16,9 @@ body {
     padding: 0;
     background-color: #f8f8f8;
     font-family: 'Roboto', sans-serif;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    /* margin-left: .5rem;
+    margin-right: .5rem; */
+    font-size: 16px;
 }
 
 /* This the nav styles */
@@ -52,9 +53,26 @@ ul li {
     margin-top: 15rem;
 }
 
+@media (max-width: 575.98px) {
+    .headerCarorsel {
+        margin-top: 7rem;
+    }
+
+    .headerCarorsel-text {
+
+        padding-left: 10px;
+
+    }
+
+    .imageHolder_image {
+        width: 100vw;
+    }
+}
+
 .headerCarorsel-text {
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -76,6 +94,8 @@ ul li {
 .imageHolder {
     position: relative;
 }
+
+
 
 .imageHolder_image {
     position: absolute;
