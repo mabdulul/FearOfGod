@@ -51,6 +51,7 @@ ul li {
 /* The header Style */
 .headerCarorsel {
     margin-top: 15rem;
+
 }
 
 @media (max-width: 575.98px) {
@@ -93,6 +94,7 @@ ul li {
 /* The Image Holder */
 .imageHolder {
     position: relative;
+
 }
 
 
