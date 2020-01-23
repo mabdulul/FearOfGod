@@ -207,6 +207,8 @@ p {
         padding-inline-start: 0px;
     }
 
+
+
     .lookbook__text {
         padding-left: 0px;
     }
@@ -221,6 +223,7 @@ p {
         width: 200px;
         height: 100%;
         top: 100px;
+        padding-left: 15px;
 
     }
 
