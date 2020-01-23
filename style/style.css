@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Roboto:300,400,500,700,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+/* This the nav styles */
+nav {
+    max-width: 100%;
+    position: fixed;
+    padding-top: 1.5rem;
+    z-index: 100;
+    top: 0px;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_logo {
+    font-family: 'Chonburi', cursive;
+    font-size: 2rem;
+
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* The header Style */
+.headerCarorsel {
+    margin-top: 15rem;
+}
+
+.headerCarorsel-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerCarorsel ul {
+    padding-inline-start: 35px;
+}
+
+.headerCarorsel ul li {
+    padding: .5rem;
+    font-weight: 500;
+
+}
+
+.headerCarorsel-list {
+    padding-left: 0px;
+}
+
+/* The Image Holder */
+.imageHolder {
+    position: relative;
+}
+
+.imageHolder_image {
+    position: absolute;
+    right: 0px;
+}
+
+.headerCarorsel-list-values {
+    color: #9b9999ec;
+}
+
+a {
+    color: inherit;
+}
+
+a:active,
+a:hover {
+    color: #393939;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/**********************The LOOKBOOK ************************/
+.lookBook {
+    position: relative;
+    justify-content: flex-end;
+
+
+}
+
+
+.lookBook_fixedCol {
+    position: fixed;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    top: 100px;
+    padding-inline-start: 25px;
+}
+
+.lookBook_title {
+
+    color: #393939;
+    font-weight: 700;
+
+}
+
+.lookBook h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.lookBook li {
+    display: block;
+    padding-bottom: 80px;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    color: #9b9999ec;
+}
+
+.lookBook li a {
+    text-decoration: underline;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+/*********************** The Images In the lookBook ********************************************************/
+.lookBook_ImgCol {
+    margin-left: 400px;
+    top: 100px;
+    bottom: 0px;
+
+
+}
+
+.lookBook_ImgCol-Down {
+    top: 350px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.lookBook img {
+    width: 200px;
+}
+
+.lookBook_List li {
+    padding-bottom: 300px;
+}
+
+.lookBook_List li:last-child {
+    padding-bottom: 0px;
+}
+
+.lookBook_ListTwo li {
+    padding-bottom: 300px;
+}
+
+.lookBook_ListTwo li:last-child {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 575.98px) {
+    .headerCarorsel ul {
+        padding-inline-start: 0px;
+    }
+
+    .lookbook__text {
+        padding-left: 0px;
+    }
+
+    .lookBook img {
+        width: 125px;
+    }
+
+    .lookBook_fixedCol {
+        position: fixed;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        top: 100px;
+
+    }
+
+    .lookBook li {
+        padding-bottom: 60px;
+    }
+
+    .lookbook_padding {
+        padding-left: 0px;
+    }
+
+    .lookBook_List li {
+        padding-bottom: 70px;
+    }
+
+    .lookBook_List li:last-child {
+        padding-bottom: 0px;
+    }
+
+    .lookBook_ListTwo li {
+        padding-bottom: 70px;
+    }
+
+    .lookBook_ListTwo li:last-child {
+        padding-bottom: 0px;
+    }
+
+    .lookBook_ImgCol-Down {
+        top: 150px;
+
+
+    }
+
+
+}
